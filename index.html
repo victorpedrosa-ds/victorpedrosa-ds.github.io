@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>João Victor Pedrosa · Analista de Dados</title>
+  <meta name="description" content="Portfólio de João Victor Pedrosa, Analista de Dados — projetos de Python, Machine Learning, séries temporais e automação de dados.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#top" class="logo">JVP<span class="logo__dot">.</span></a>
+
+      <nav class="nav" id="nav">
+        <a href="#sobre" class="nav__link">Sobre</a>
+        <a href="#skills" class="nav__link">Skills</a>
+        <a href="#projetos" class="nav__link">Projetos</a>
+        <a href="#contato" class="nav__link">Contato</a>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero" id="top">
+      <div class="hero__particles" id="hero-particles" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <p class="hero__greeting" data-aos="fade-up">Olá, eu sou</p>
+        <h1 class="hero__name" data-aos="fade-up" data-aos-delay="100">João Victor Pedrosa</h1>
+        <h2 class="hero__role" data-aos="fade-up" data-aos-delay="200">Analista de Dados</h2>
+        <p class="hero__tagline" data-aos="fade-up" data-aos-delay="300">
+          Transformo dados brutos em decisões utilizando Python, estatística e Machine Learning.
+        </p>
+        <div class="hero__actions" data-aos="fade-up" data-aos-delay="400">
+          <a href="#projetos" class="btn btn--primary">Ver projetos</a>
+          <a href="#contato" class="btn btn--outline">Entrar em contato</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="sobre">
+      <div class="container about">
+        <div class="about__photo" data-aos="fade-up">
+          <img src="images/imagem_minha.png" alt="Foto de João Victor Pedrosa">
+        </div>
+        <div class="about__content">
+          <p class="section__eyebrow" data-aos="fade-up">Sobre mim</p>
+          <h2 class="section__title" data-aos="fade-up">Quem eu sou</h2>
+          <p class="about__text" data-aos="fade-up" data-aos-delay="100">
+            Economista em formação (UFPA) e Analista de Dados, atualmente atuando na Secretaria de Estado
+            da Fazenda do Pará (SEFA-PA), onde aplico Python, estatística e Machine Learning a dados fiscais
+            e econômicos. Faço a união de experiência prévia no setor bancário com programaçãom, tecnologias e estatística
+            para transformar dados
+            brutos em decisões assertivas e automatizar processos, de webscraping e ETL a modelos preditivos e dashboards.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="skills">
+      <div class="container">
+        <p class="section__eyebrow" data-aos="fade-up">Skills</p>
+        <h2 class="section__title" data-aos="fade-up">Ferramentas e conhecimentos</h2>
+
+        <div class="skills__grid">
+          <div class="skills__group" data-aos="fade-up">
+            <h3 class="skills__category">Linguagens</h3>
+            <ul class="skills__list">
+              <li>Python</li>
+              <li>R</li>
+              <li>JavaScript</li>
+              <li>SQL</li>
+            </ul>
+          </div>
+
+          <div class="skills__group" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="skills__category">Dados &amp; BI</h3>
+            <ul class="skills__list">
+              <li>Power BI (DAX e M)</li>
+              <li>Excel avançado (VBA)</li>
+              <li>MySQL</li>
+              <li>SQL Server</li>
+            </ul>
+          </div>
+
+          <div class="skills__group" data-aos="fade-up" data-aos-delay="200">
+            <h3 class="skills__category">Estatística &amp; ML</h3>
+            <ul class="skills__list">
+              <li>Regressão Linear/Logística</li>
+              <li>Séries Temporais</li>
+              <li>Inferência Estatística</li>
+              <li>Econometria</li>
+              <li>Scikit-learn</li>
+              <li>Prophet</li>
+              <li>XGBoost</li>
+            </ul>
+          </div>
+
+          <div class="skills__group" data-aos="fade-up" data-aos-delay="300">
+            <h3 class="skills__category">Idiomas</h3>
+            <ul class="skills__list">
+              <li>Português (nativo)</li>
+              <li>Inglês (fluente)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projetos">
+      <div class="container">
+        <p class="section__eyebrow" data-aos="fade-up">Projetos</p>
+        <h2 class="section__title" data-aos="fade-up">O que eu já construí</h2>
+
+        <div class="projects__grid">
+
+          <article class="project-card" data-aos="fade-up">
+            <div class="project-card__image">
+              <img src="images/pmpf-updater.png" alt="Captura de tela do projeto PMPF Updater">
+            </div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">PMPF Updater</h3>
+              <p class="project-card__desc">
+                Sistema que automatiza a atualização do catálogo de preços PMPF (usado no cálculo de ICMS
+                por substituição tributária) da SEFA-PA. Extrai tabelas de PDFs de portarias, compara com
+                o catálogo em Excel e apresenta as mudanças numa interface web para revisão e aprovação,
+                eliminando um processo antes feito manualmente, linha a linha.
+              </p>
+              <ul class="project-card__tags">
+                <li>Python</li>
+                <li>Streamlit</li>
+                <li>Camelot</li>
+                <li>Pandas</li>
+              </ul>
+              <div class="project-card__actions">
+                <a href="https://github.com/victorpedrosa-ds/catalogo_updater" class="btn btn--sm btn--outline" target="_blank" rel="noopener">Ver código</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="project-card__image">
+              <img src="images/projecao-impostos.png" alt="Captura de tela do projeto de Projeção de Arrecadação de Impostos do Pará">
+            </div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">Projeção de Arrecadação de Impostos do Pará</h3>
+              <p class="project-card__desc">
+                Modelo de séries temporais com Prophet para projetar 12 meses de arrecadação dos principais
+                impostos do Pará (ICMS, IPVA, ITCD), com dados públicos da SEFA-PA. Validação com
+                Walk-Forward e Rolling Window, tuning via Grid Search, e erro de apenas 4% (MAPE) na
+                previsão de ICMS.
+              </p>
+              <ul class="project-card__tags">
+                <li>Python</li>
+                <li>Prophet</li>
+                <li>Scikit-learn</li>
+                <li>Pandas</li>
+              </ul>
+              <div class="project-card__actions">
+                <a href="https://github.com/victorpedrosa-ds/projecao_impostos_ofc" class="btn btn--sm btn--outline" target="_blank" rel="noopener">Ver código</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="project-card__image">
+              <img src="images/pmpf-medicamentos.png" alt="Captura de tela do projeto PMPF Medicamentos">
+            </div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">PMPF Medicamentos</h3>
+              <p class="project-card__desc">
+                Webscraping e tratamento de dados de PMPF (Preço Médio Ponderado ao Consumidor Final) de medicamentos
+                em diferentes estados brasileiros. Meu primeiro projeto de dados, também usado para
+                praticar versionamento em Git.
+              </p>
+              <ul class="project-card__tags">
+                <li>Python</li>
+                <li>Webscraping</li>
+              </ul>
+              <div class="project-card__actions">
+                <a href="https://github.com/victorpedrosa-ds/PMPF-Medicamentos" class="btn btn--sm btn--outline" target="_blank" rel="noopener">Ver código</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="contato">
+      <div class="container contact">
+        <p class="section__eyebrow" data-aos="fade-up">Contato</p>
+        <h2 class="section__title" data-aos="fade-up">Vamos conversar</h2>
+        <p class="contact__text" data-aos="fade-up" data-aos-delay="100">
+          Aberto a oportunidades e colaborações em análise de dados, ciência de dados e BI.
+        </p>
+
+        <div class="contact__email" data-aos="fade-up" data-aos-delay="150">
+          <span class="contact__email-label">Email :</span>
+          <a href="mailto:victorpedrosa.me@gmail.com" class="contact__email-value">victorpedrosa.me@gmail.com</a>
+        </div>
+
+        <div class="contact__links" data-aos="fade-up" data-aos-delay="200">
+          <a href="mailto:victorpedrosa.me@gmail.com" class="btn btn--primary">E-mail</a>
+          <a href="https://www.linkedin.com/in/joão-victor-pedrosa-836371253" class="btn btn--outline" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://github.com/victorpedrosa-ds" class="btn btn--outline" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>&copy; <span id="year"></span> João Victor Pedrosa.</p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@tsparticles/engine@4/tsparticles.engine.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tsparticles/slim@4/tsparticles.slim.bundle.min.js"></script>
+  <script src="js/particles.js"></script>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
