@@ -50,7 +50,7 @@ Source of truth for what's rendered in `index.html`. If the user changes bio, sk
 
 - Name: João Victor Pedrosa
 - Role: Analista de Dados
-- Bio: Economista em formação (UFPA) e Analista de Dados, atualmente estagiando na Secretaria de Estado da Fazenda do Pará (SEFA-PA), onde aplica Python, estatística e Machine Learning a dados fiscais e econômicos. Experiência prévia no setor bancário com programação, transformando dados brutos em decisões — de webscraping e ETL a modelos preditivos e dashboards.
+- Bio: Economista em formação (UFPA) e Analista de Dados, atualmente atuando na Secretaria de Estado da Fazenda do Pará (SEFA-PA), onde aplica Python, estatística e Machine Learning a dados fiscais e econômicos. Experiência prévia no setor bancário com programação, transformando dados brutos em decisões — de webscraping e ETL a modelos preditivos e dashboards.
 
 ### Skills (grouped)
 
@@ -71,7 +71,7 @@ Source of truth for what's rendered in `index.html`. If the user changes bio, sk
    - Código: https://github.com/victorpedrosa-ds/projecao_impostos_ofc
    - Demo: nenhuma
 
-3. **PMPF Medicamentos** — Webscraping e tratamento de dados de PMPF (Preço Máximo ao Público Fixado) de medicamentos em diferentes estados brasileiros — primeiro projeto de dados do autor, também usado para praticar versionamento em Git.
+3. **PMPF Medicamentos** — Webscraping e tratamento de dados de PMPF (Preço Médio Ponderado ao consumidor final) de medicamentos em diferentes estados brasileiros — primeiro projeto de dados do autor, também usado para praticar versionamento em Git.
    - Tech: Python, webscraping
    - Código: https://github.com/victorpedrosa-ds/PMPF-Medicamentos
    - Demo: nenhuma
