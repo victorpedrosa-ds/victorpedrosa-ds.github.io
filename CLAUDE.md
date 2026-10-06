@@ -19,8 +19,6 @@ Static personal portfolio website for **João Victor Pedrosa** (Data Analyst), b
 - `js/script.js` — all JS (AOS init, nav toggle/scroll interactions)
 - `images/` — project screenshots and photos
 
-`main.py` in the repo root is leftover PyCharm project boilerplate, unrelated to this static site — safe to ignore or delete.
-
 ## Running locally
 
 No build step or dependencies. Open `index.html` directly in a browser, or serve it with a simple local server (`python -m http.server`, VS Code "Live Server", etc.) if testing something that requires HTTP rather than `file://`.
